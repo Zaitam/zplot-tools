@@ -2,7 +2,7 @@ import shutil
 from pathlib import Path
 import matplotlib
 import matplotlib.pyplot as plt
-import os
+from os import walk
 
 def register_styles():
     """Copy all .mplstyle files in the package into matplotlib's stylelib."""
@@ -34,7 +34,7 @@ def read_styles_in_folders(root_path):
         Should be compatible with matplotlib's plt.style.library dictionary.
     """
     stylesheets = {}  # plt.style.library is a dictionary
-    for folder, _, _ in os.walk(root_path):
+    for folder, _, _ in walk(root_path):
         new_stylesheets = plt.style.core.read_style_directory(folder)
         stylesheets.update(new_stylesheets)
     return stylesheets
