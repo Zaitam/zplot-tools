@@ -64,7 +64,7 @@ xtick.major.size : 5
 xtick.major.width : 1
 xtick.minor.size : 3
 xtick.minor.width : 0.5
-xtick.minor.visible : True
+xtick.minor.visible : False
 
 ytick.color : 555555
 ytick.direction : out
@@ -74,7 +74,7 @@ ytick.major.size : 5
 ytick.major.width : 1
 ytick.minor.size : 3
 ytick.minor.width : 0.5
-ytick.minor.visible : True
+ytick.minor.visible : False
 
 # === LEGEND ===
 legend.frameon : False
