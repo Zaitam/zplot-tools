@@ -18,7 +18,3 @@ packages = ["pyutils", "pyutils.mpl_styles"]
 
 [tool.setuptools.package-data]
 "pyutils.mpl_styles" = ["*.mplstyle"]
-
-[build-system]
-requires = ["setuptools", "wheel"]
-build-backend = "setuptools.build_meta"
