@@ -1,4 +1,4 @@
-import os  # pathlib.Path.walk not available in Python <3.12
+import os
 import matplotlib.pyplot as plt
 import zplot_tools
 from .register_styles import read_styles_in_folders
