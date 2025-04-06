@@ -1,0 +1,84 @@
+# ===============================
+# Matplotlib Style: science
+# Modular scientific base style for lab & theory
+# Inspired by: GGPlot, seaborn and SciencePlots
+# ===============================
+
+# ========= FIGURE ========= #
+figure.figsize: 8.0, 5.0
+figure.facecolor: white
+figure.edgecolor: 0.5
+
+savefig.dpi : 300
+savefig.bbox : tight
+savefig.format : png
+savefig.transparent : False
+savefig.pad_inches: 0.05
+
+# === FONTS ===
+font.family : sans-serif
+font.sans-serif : Arial, Liberation Sans, DejaVu Sans
+font.size : 10.0
+text.color : 0.15
+
+axes.titlesize : x-large
+axes.titlecolor : black
+axes.labelsize: large
+axes.labelcolor: 555555
+
+# === AXES ===
+axes.axisbelow : True
+axes.edgecolor : white
+axes.facecolor : E5E5E5
+axes.linewidth : 1
+axes.prop_cycle : cycler('color', ['4165c0', 'e770a2', '5ac3be', '696969', 'f79a1e', 'ba7dcd'])
+
+# === GRID ===
+axes.grid : True
+axes.grid.which: major
+grid.color: white
+grid.linestyle: -
+grid.linewidth : 0.5
+
+# === LINES ===
+lines.linewidth : 1.75
+lines.markeredgewidth : 2
+lines.markersize : 7
+lines.solid_capstyle : round
+
+# === PATCHES ===
+patch.facecolor : 348ABD
+patch.linewidth : 0.5
+patch.edgecolor: EEEEEE
+patch.antialiased: True
+
+# === IMAGE ===
+image.cmap: Greys
+
+# === TICKS ===
+xtick.color : 555555
+xtick.direction : out
+xtick.labelsize : small
+xtick.major.pad : 7
+xtick.major.size : 5
+xtick.major.width : 1
+xtick.minor.size : 3
+xtick.minor.width : 0.5
+xtick.minor.visible : True
+
+ytick.color : 555555
+ytick.direction : out
+ytick.labelsize : small
+ytick.major.pad : 7
+ytick.major.size : 5
+ytick.major.width : 1
+ytick.minor.size : 3
+ytick.minor.width : 0.5
+ytick.minor.visible : True
+
+# === LEGEND ===
+legend.frameon : False
+legend.fontsize : small
+legend.loc : best
+legend.numpoints: 1
+legend.scatterpoints: 1

@@ -1,0 +1,7 @@
+# === GRID ===
+axes.grid : True
+axes.grid.which : both
+
+# === TICKS ===
+xtick.minor.visible : True
+ytick.minor.visible : True

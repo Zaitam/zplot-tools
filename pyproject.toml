@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zplot-tools"
+version = "0.0.1"
+description = "Personal package with matplotlib styles and other helpers"
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/zaitam/zplot-tools"
+
+[tool.setuptools]
+packages = ["pyutils", "pyutils.mpl_styles"]
+
+[tool.setuptools.package-data]
+"pyutils.mpl_styles" = ["*.mplstyle"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

@@ -1,0 +1,18 @@
+figure.figsize : 3.3, 2.5 
+axes.labelsize: 7
+xtick.labelsize: 7
+ytick.labelsize: 7
+legend.fontsize: 7
+font.size: 7
+
+font.family: sans-serif
+font.sans-serif: DejaVu Sans, Arial, Helvetica, Lucida Grande, Verdana, Geneva, Lucid, Avant Garde, sans-serif
+mathtext.fontset : dejavusans
+
+axes.linewidth : 0.5
+grid.linewidth : 0.5
+lines.linewidth : 1.
+lines.markersize: 3
+
+text.usetex : True
+text.latex.preamble : \usepackage{amsmath} \usepackage{amssymb} \usepackage{sfmath}

@@ -1,0 +1,15 @@
+# === GRID ===
+axes.grid : True
+grid.color: black
+grid.linestyle : -
+grid.linewidth : 0.6
+grid.alpha : 0.1
+
+# === TICKS ===
+xtick.minor.visible : True
+ytick.minor.visible : True
+
+# === AXES ===
+axes.linewidth : 0.5
+axes.edgecolor : black
+axes.facecolor : white
