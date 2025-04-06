@@ -2,7 +2,6 @@ import os
 import os
 import matplotlib.pyplot as plt
 import zplot_tools
-from .instal_styles import read_styles_in_folders
 
 def install_styles():
     """
