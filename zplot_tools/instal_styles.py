@@ -1,6 +1,20 @@
 import os
-
+import os
 import matplotlib.pyplot as plt
+import zplot_tools
+from .instal_styles import read_styles_in_folders
+
+def install_styles():
+    """
+    Installs the stylesheets in the zplot_tools package into matplotlib's
+    style library.
+    """
+    path = zplot_tools.__path__[0]
+    
+    styles_path = os.path.join(path, "mpl_styles")
+    stylesheets = read_styles_in_folders(styles_path)
+    plt.style.core.update_nested_dict(plt.style.library, stylesheets)
+    plt.style.core.available[:] = sorted(plt.style.library.keys())
 
 def read_styles_in_folders(root_path):
     """
