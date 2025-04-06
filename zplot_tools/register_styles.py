@@ -2,6 +2,7 @@ import shutil
 from pathlib import Path
 import matplotlib
 import matplotlib.pyplot as plt
+import os
 
 def register_styles():
     """Copy all .mplstyle files in the package into matplotlib's stylelib."""
