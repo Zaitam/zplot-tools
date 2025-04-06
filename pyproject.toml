@@ -14,7 +14,4 @@ requires-python = ">=3.8"
 Homepage = "https://github.com/zaitam/zplot-tools"
 
 [tool.setuptools]
-packages = ["pyutils", "pyutils.mpl_styles"]
-
-[tool.setuptools.package-data]
-"pyutils.mpl_styles" = ["*.mplstyle"]
+packages = ["zplot-tools"]
