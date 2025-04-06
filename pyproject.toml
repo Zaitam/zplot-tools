@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "zplot-tools"
+name = "zplot_tools"
 version = "0.0.1"
 description = "Personal package with matplotlib styles and other helpers"
 license = {text = "MIT"}
@@ -14,4 +14,4 @@ requires-python = ">=3.8"
 Homepage = "https://github.com/zaitam/zplot-tools"
 
 [tool.setuptools]
-packages = ["zplot-tools"]
+packages = ["zplot_tools"]
