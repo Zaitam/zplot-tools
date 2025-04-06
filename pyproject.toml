@@ -15,3 +15,9 @@ Homepage = "https://github.com/zaitam/zplot-tools"
 
 [tool.setuptools]
 packages = ["zplot_tools"]
+
+[tool.setuptools]
+packages = ["zplot_tools"]
+
+[tool.setuptools.package-data]
+"zplot_tools.mpl_styles" = ["*.mplstyle"]
